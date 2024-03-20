@@ -12,6 +12,12 @@
 		EF9191122BAA6F42004AB261 /* UserDetailConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF91910E2BAA6F42004AB261 /* UserDetailConfigurator.swift */; };
 		EF9191142BAA6FBA004AB261 /* UserPictureService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9191132BAA6FBA004AB261 /* UserPictureService.swift */; };
 		EF9191162BAA7331004AB261 /* UserDetailViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9191152BAA7331004AB261 /* UserDetailViewModelTest.swift */; };
+		EFA0EED12BAB335E0064C9E2 /* LoginUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA0EED02BAB335E0064C9E2 /* LoginUser.swift */; };
+		EFA0EED42BAB33920064C9E2 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA0EED32BAB33920064C9E2 /* LoginViewModel.swift */; };
+		EFA0EED62BAB33CF0064C9E2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA0EED52BAB33CF0064C9E2 /* LoginView.swift */; };
+		EFA0EED82BAB35840064C9E2 /* LoginConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA0EED72BAB35840064C9E2 /* LoginConfigurator.swift */; };
+		EFA0EEDA2BAB37A40064C9E2 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA0EED92BAB37A40064C9E2 /* LoginRouter.swift */; };
+		EFA0EEDC2BAB54AE0064C9E2 /* LoginViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA0EEDB2BAB54AE0064C9E2 /* LoginViewModelTest.swift */; };
 		EFE485D72BAA67DB00536BFB /* UserViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE485D62BAA67DB00536BFB /* UserViewModelTest.swift */; };
 		EFFFB2082BAA15CE00F2C6C2 /* RetoUsersDetailApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFFB2072BAA15CE00F2C6C2 /* RetoUsersDetailApp.swift */; };
 		EFFFB20C2BAA15CF00F2C6C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFFFB20B2BAA15CF00F2C6C2 /* Assets.xcassets */; };
@@ -53,6 +59,12 @@
 		EF91910E2BAA6F42004AB261 /* UserDetailConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailConfigurator.swift; sourceTree = "<group>"; };
 		EF9191132BAA6FBA004AB261 /* UserPictureService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPictureService.swift; sourceTree = "<group>"; };
 		EF9191152BAA7331004AB261 /* UserDetailViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewModelTest.swift; sourceTree = "<group>"; };
+		EFA0EED02BAB335E0064C9E2 /* LoginUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUser.swift; sourceTree = "<group>"; };
+		EFA0EED32BAB33920064C9E2 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		EFA0EED52BAB33CF0064C9E2 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		EFA0EED72BAB35840064C9E2 /* LoginConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginConfigurator.swift; sourceTree = "<group>"; };
+		EFA0EED92BAB37A40064C9E2 /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		EFA0EEDB2BAB54AE0064C9E2 /* LoginViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModelTest.swift; sourceTree = "<group>"; };
 		EFE485D62BAA67DB00536BFB /* UserViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModelTest.swift; sourceTree = "<group>"; };
 		EFFFB2042BAA15CE00F2C6C2 /* RetoUsersDetail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetoUsersDetail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFFFB2072BAA15CE00F2C6C2 /* RetoUsersDetailApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetoUsersDetailApp.swift; sourceTree = "<group>"; };
@@ -110,6 +122,17 @@
 			path = UserDetail;
 			sourceTree = "<group>";
 		};
+		EFA0EED22BAB337D0064C9E2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				EFA0EED32BAB33920064C9E2 /* LoginViewModel.swift */,
+				EFA0EED52BAB33CF0064C9E2 /* LoginView.swift */,
+				EFA0EED72BAB35840064C9E2 /* LoginConfigurator.swift */,
+				EFA0EED92BAB37A40064C9E2 /* LoginRouter.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		EFFFB1FB2BAA15CE00F2C6C2 = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +180,7 @@
 			children = (
 				EFE485D62BAA67DB00536BFB /* UserViewModelTest.swift */,
 				EF9191152BAA7331004AB261 /* UserDetailViewModelTest.swift */,
+				EFA0EEDB2BAB54AE0064C9E2 /* LoginViewModelTest.swift */,
 			);
 			path = RetoUsersDetailTests;
 			sourceTree = "<group>";
@@ -164,6 +188,7 @@
 		EFFFB2322BAA168200F2C6C2 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				EFA0EED22BAB337D0064C9E2 /* Login */,
 				EF91910A2BAA6ED0004AB261 /* UserDetail */,
 				EFFFB2342BAA169700F2C6C2 /* Users */,
 			);
@@ -203,6 +228,7 @@
 			children = (
 				EFFFB23C2BAA19F700F2C6C2 /* User.swift */,
 				EFFFB23E2BAA19FF00F2C6C2 /* Users.swift */,
+				EFA0EED02BAB335E0064C9E2 /* LoginUser.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -374,6 +400,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFA0EED82BAB35840064C9E2 /* LoginConfigurator.swift in Sources */,
 				EFFFB23D2BAA19F700F2C6C2 /* User.swift in Sources */,
 				EFFFB2482BAA1E4900F2C6C2 /* NetworkError.swift in Sources */,
 				EF9191122BAA6F42004AB261 /* UserDetailConfigurator.swift in Sources */,
@@ -381,15 +408,19 @@
 				EF91910F2BAA6F42004AB261 /* UserDetailViewModel.swift in Sources */,
 				EFFFB2492BAA1E4900F2C6C2 /* Endpoint.swift in Sources */,
 				EFFFB2082BAA15CE00F2C6C2 /* RetoUsersDetailApp.swift in Sources */,
+				EFA0EEDA2BAB37A40064C9E2 /* LoginRouter.swift in Sources */,
 				EFFFB2422BAA1DF500F2C6C2 /* UserService.swift in Sources */,
 				EFFFB24A2BAA1E4900F2C6C2 /* Networker.swift in Sources */,
 				EFFFB23F2BAA19FF00F2C6C2 /* Users.swift in Sources */,
 				EFFFB24E2BAA1ECF00F2C6C2 /* Endpoint+Users.swift in Sources */,
 				EFFFB24F2BAA1ECF00F2C6C2 /* Endpoint+URL.swift in Sources */,
+				EFA0EED12BAB335E0064C9E2 /* LoginUser.swift in Sources */,
 				EFFFB2392BAA174A00F2C6C2 /* UsersViewModel.swift in Sources */,
 				EFFFB2372BAA16C100F2C6C2 /* UsersConfigurator.swift in Sources */,
 				EFFFB2532BAA205500F2C6C2 /* UsersRouter.swift in Sources */,
 				EF9191102BAA6F42004AB261 /* UserDetailView.swift in Sources */,
+				EFA0EED42BAB33920064C9E2 /* LoginViewModel.swift in Sources */,
+				EFA0EED62BAB33CF0064C9E2 /* LoginView.swift in Sources */,
 				EFFFB2512BAA203200F2C6C2 /* UsersView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,6 +430,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF9191162BAA7331004AB261 /* UserDetailViewModelTest.swift in Sources */,
+				EFA0EEDC2BAB54AE0064C9E2 /* LoginViewModelTest.swift in Sources */,
 				EFE485D72BAA67DB00536BFB /* UserViewModelTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

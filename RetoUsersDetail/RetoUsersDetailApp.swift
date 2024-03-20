@@ -11,7 +11,7 @@ import SwiftUI
 struct RetoUsersDetailApp: App {
     var body: some Scene {
         WindowGroup {
-            UsersConfigurator.configureUsersView()
+            LoginConfiguration.configureLoginView(viewModel: LoginViewModel())
         }
     }
 }
