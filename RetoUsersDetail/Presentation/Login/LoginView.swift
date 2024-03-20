@@ -36,16 +36,10 @@ struct LoginView: View {
             .frame(minHeight: 54) // Set minimum TextField height (adjust as needed)
         }
 
-        HStack {
-          Spacer()
           Button("Login") {
             viewModel.login()
             showErrorLabel = !viewModel.isLoggedIn
-          }
-          .padding()
-          .foregroundColor(.white)
-          Spacer()
-        }
+          }.padding().foregroundColor(.white)
         .background(Color.black)
         .clipShape(RoundedRectangle(cornerRadius: 10))
 

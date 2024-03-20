@@ -48,13 +48,12 @@ class LoginViewModel: ObservableObject {
         }
     }
     
-    private func checkSessionExpiration() {
+    func checkSessionExpiration() {
         if let sessionStartTime = UserDefaults.standard.object(forKey: "SessionStartTime") as? Date {
             let currentTime = Date()
             let elapsedTime = currentTime.timeIntervalSince(sessionStartTime)
             if elapsedTime > 10 && isLoggedIn {
                 showSessionExpiredAlert = true
-                timer?.invalidate()
             }
         }
     }

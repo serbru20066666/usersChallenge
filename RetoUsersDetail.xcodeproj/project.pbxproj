@@ -17,6 +17,7 @@
 		EFA0EED62BAB33CF0064C9E2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA0EED52BAB33CF0064C9E2 /* LoginView.swift */; };
 		EFA0EED82BAB35840064C9E2 /* LoginConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA0EED72BAB35840064C9E2 /* LoginConfigurator.swift */; };
 		EFA0EEDA2BAB37A40064C9E2 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA0EED92BAB37A40064C9E2 /* LoginRouter.swift */; };
+		EFA0EEDC2BAB54AE0064C9E2 /* LoginViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA0EEDB2BAB54AE0064C9E2 /* LoginViewModelTest.swift */; };
 		EFE485D72BAA67DB00536BFB /* UserViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE485D62BAA67DB00536BFB /* UserViewModelTest.swift */; };
 		EFFFB2082BAA15CE00F2C6C2 /* RetoUsersDetailApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFFB2072BAA15CE00F2C6C2 /* RetoUsersDetailApp.swift */; };
 		EFFFB20C2BAA15CF00F2C6C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFFFB20B2BAA15CF00F2C6C2 /* Assets.xcassets */; };
@@ -63,6 +64,7 @@
 		EFA0EED52BAB33CF0064C9E2 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		EFA0EED72BAB35840064C9E2 /* LoginConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginConfigurator.swift; sourceTree = "<group>"; };
 		EFA0EED92BAB37A40064C9E2 /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		EFA0EEDB2BAB54AE0064C9E2 /* LoginViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModelTest.swift; sourceTree = "<group>"; };
 		EFE485D62BAA67DB00536BFB /* UserViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModelTest.swift; sourceTree = "<group>"; };
 		EFFFB2042BAA15CE00F2C6C2 /* RetoUsersDetail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetoUsersDetail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFFFB2072BAA15CE00F2C6C2 /* RetoUsersDetailApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetoUsersDetailApp.swift; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 			children = (
 				EFE485D62BAA67DB00536BFB /* UserViewModelTest.swift */,
 				EF9191152BAA7331004AB261 /* UserDetailViewModelTest.swift */,
+				EFA0EEDB2BAB54AE0064C9E2 /* LoginViewModelTest.swift */,
 			);
 			path = RetoUsersDetailTests;
 			sourceTree = "<group>";
@@ -427,6 +430,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF9191162BAA7331004AB261 /* UserDetailViewModelTest.swift in Sources */,
+				EFA0EEDC2BAB54AE0064C9E2 /* LoginViewModelTest.swift in Sources */,
 				EFE485D72BAA67DB00536BFB /* UserViewModelTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

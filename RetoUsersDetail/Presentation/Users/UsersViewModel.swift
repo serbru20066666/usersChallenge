@@ -2,8 +2,8 @@ import Foundation
 import Combine
 
 class UsersViewModel: ObservableObject {
-    @Published public var users: Users = Users(data: [])
-    @Published public var isLoading: Bool = false // Track loading state
+    @Published public var users: Users = Users(data: [User.fake()])
+    @Published public var isLoading: Bool = false
 
     private var usersService: UsersServiceProtocol
     private var cancellables = Set<AnyCancellable>()
@@ -13,7 +13,7 @@ class UsersViewModel: ObservableObject {
     }
 
     public func onAppear() {
-        isLoading = true // Set loading state to true
+        isLoading = true
         getUsers(count: 40)
     }
 
