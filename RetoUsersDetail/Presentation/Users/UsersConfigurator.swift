@@ -1,10 +1,3 @@
-//
-//  UsersConfigurator.swift
-//  RetoUsersDetail
-//
-//  Created by Bruno on 19/03/24.
-//
-
 import Foundation
 
 final class UsersConfigurator {
