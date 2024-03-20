@@ -1,10 +1,3 @@
-//
-//  UsersView.swift
-//  RetoUsersDetail
-//
-//  Created by Bruno on 19/03/24.
-//
-
 import SwiftUI
 
 struct UsersView: View {
@@ -15,7 +8,12 @@ struct UsersView: View {
         NavigationView {
             List(viewModel.users.data) { user in
                 
-                Text(user.firstName)
+                NavigationLink(
+                    destination: UsersRouter.destinationForTappedUser(
+                        user: user)
+                ) {
+                    Text(user.firstName)
+                }
                 
             }.navigationTitle("Users")
         }.onAppear(perform: {
