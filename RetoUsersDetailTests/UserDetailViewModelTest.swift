@@ -45,7 +45,7 @@ class UserDetailViewModelTests: XCTestCase {
         viewModel.onAppear()
         
         // Then
-        XCTAssertTrue(viewModel.avatar.isEqual(UIImage()), "Avatar should be the default image")
+        XCTAssertTrue(viewModel.avatar.isEqual(UIImage(named: "userDefault")), "Avatar should be the default image")
     }
 }
 

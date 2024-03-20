@@ -2,7 +2,7 @@ import UIKit
 import Combine
 
 class UserDetailViewModel: ObservableObject {
-    @Published public var avatar: UIImage = UIImage()
+    @Published public var avatar: UIImage = (UIImage(named: "userDefault") ?? UIImage())
     
     public let user: User
     
